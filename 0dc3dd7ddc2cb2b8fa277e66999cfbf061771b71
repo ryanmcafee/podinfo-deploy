@@ -1,0 +1,1 @@
+{"jobID":"eba12b0b-a225-7ec3-8a30-3f25bce4f6db","spec":{"type":"policy","cause":{"Message":"","User":"Ryan McAfee \u003crmcafee@appriver.com\u003e"},"spec":{"dev:deployment/podinfo":{"add":{"automated":"true"},"remove":null}}},"result":null}
