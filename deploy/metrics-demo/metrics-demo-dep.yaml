@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: metricsdemod
-        image: quay.io/brice/metrics-demo:v4-subscription-service
+        image: quay.io/brice/metrics-demo:master-a1560c8
         ports:
         - containerPort: 3000
         resources:
@@ -42,5 +42,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: metricsdemo            
+    app: metricsdemo
 
