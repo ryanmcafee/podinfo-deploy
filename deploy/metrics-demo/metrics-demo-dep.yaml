@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: metricsdemod
-        image: quay.io/brice/metrics-demo:v4-subscription-service
+        image: quay.io/brice/metrics-demo:master-a1560c8
         ports:
         - containerPort: 3000
         resources:
@@ -37,10 +37,10 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - port: 3000
-      targetPort: 3000
-      protocol: TCP
-      name: http
+  - port: 3000
+    targetPort: 3000
+    protocol: TCP
+    name: http
   selector:
-    app: metricsdemo            
+    app: metricsdemo
 
